@@ -1,0 +1,57 @@
+A continuación los comando que más utilizamos en este curso
+
+grep
+	Sirve para buscar en un lugar o en un archivo, también sirve para
+	contar las palabras con la bandera -c 
+	Igual podemos ponerle 'busqueda$' con los pesitos al final para que
+	pueda buscar al final de alguna palabra y análogo a eso con la
+	bandera ^ haceos que lo busque al principio ejemplo '^busqueda'
+awk
+	Sirve para reemplazar temporalmente una palabra en un archivo 
+	y también funciona como lenguaje de scripts o cosas por el estilo con
+	los comando adecuados
+
+<	
+	Envía toda la información de cierto archivo a cierta orden o tal
+	por elemplo par subir algo al servidor o ejecutar cada uno de los 
+	comandos de un documento basta con poner
+	mysql -u 127.0.0.1 -u root < archivo.sql
+>
+	Este sirve para lo contrario, es decir la salida de datos que se van
+	a guardar en otro lado, si es necesario los reescribe, ej
+	date > archivoNuevo.txt
+>>
+	Hace lo mismo que el anterior solo que en lugar de reemplazar el texto
+	que existía, se limtia a hacer una copia
+
+tail
+	Sirve para extraer los últimos elementos de un archivo y si se le pone
+	la bandera -n al principio servirá para que lo haga hasta cierta linea
+head
+	Hace lo análogo al comando anterior pero con los primeros elementos
+wc 
+	Sirve como un contador de palabras de un archivo, si se le pone la 	
+	bandera -l contará las lineas que hay
+cat 	
+	Sirve para ver un archivo desde la terminacat 	
+	Sirve para ver un aterminal
+date
+	arroja la fecha y el dia en un la terminal
+&
+	sirve para que algún proceso sea ejecutado en background y el control
+	sobre la terminal regerese a mí en seguida
+Ctrl + z
+	manda uno de los deamons en segundo plano y para el proceso
+	para darme el control de nuevo sobre la terminal, si quiero volver
+	a darle play al proceso basta con que escrba el comando fg y todo regresa 
+	a la normalidad
+ps
+	sirve para ver cuáles son lo procesos que están en ejecución con la bandera
+	ax pone todos los procesos
+
+|
+	Más bien conocido como pip es una tubería pot
+top
+	este es el de toda la vida que conoces, sirve para ver los procesos en una lista
+	 y poderlos matar si fuera necesario
+	

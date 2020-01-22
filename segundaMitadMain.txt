@@ -1,0 +1,46 @@
+        */
+        scanf("%f", (arr + i));
+        //
+    }
+
+    /*Tulizar, hacer operaciones con los datos
+    Recuerda siempre declarar bien el entero igual a i= 0 si no, no compilará
+
+    Recuerda poner ambos en flotantes
+    */
+    float suma = 0.0;
+    float promedio = 0.0;
+
+    for(int i = 0; i < size; i++){
+        suma += *(arr +i) ;
+        promedio = suma/size;
+    }
+
+    printf("El promedio es : %f", promedio);
+    //Para liberar memoria o terminar con el proceso
+    free(arr);
+
+
+    return 0;
+}
+
+
+/*
+
+Malloc -> reserva el espacio en bytes
+    cuando solo tenemos que reservar y en seguida podemos asignar
+    DEbemos de enviarle un sizeof(tipo de variable) así que hay que multiplicarlos
+    por buenas prácticas, debemos de poner una especificación
+    estos valores reglresan un
+
+calloc -> reserva nmero de elemento sy tambien los limpia (com con un 0 o null)
+    Nos conviene cuando tenemos una agenda teleófinca,
+    ejemplo si lo hiciéramos con malloc tendría basura
+
+realloc -> cambair la asignación (tamaño)
+
+free solo sirve para liberar
+
+---- MANERAS DE ASIGNAR VALORES EN UN ARRGLO USANDO LOS APUNTADORES
+
+*/
